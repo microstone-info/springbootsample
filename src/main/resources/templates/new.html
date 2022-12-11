@@ -25,6 +25,7 @@
 	          				<label class="col-md-2 control-label">商品名</label>
 	          				<div class="col-md-10">
 	            				<input class="form-control" type="text" name="name" th:value="*{name}" />
+								<!-- th:xxx is the thymyleaf function -->
 	            				<div class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
 	          				</div>
 	        			</div>
