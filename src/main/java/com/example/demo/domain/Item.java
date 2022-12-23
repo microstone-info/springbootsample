@@ -5,6 +5,10 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+// import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class Item {
 	private Long id;
 	
